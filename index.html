@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job1</title>
+    
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: Violet;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+
+            /* Colorful gradient text */
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            /* Small movement animation */
+            animation: moveText 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes moveText {
+            from {
+                transform: translateX(0px);
+            }
+            to {
+                transform: translateX(-50px); /* small movement only */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>THIS IS MY 1st REPOSITORY index FILE FOR JOB_1.</h1>
+
+</body>
+</html>
